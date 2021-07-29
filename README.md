@@ -2,7 +2,9 @@
 
 **1.1 System requirements and installation**
 
-PickMe and PickMeQ (available at XXX) requires PERL, JAVA, as well as BASH command lines. These programs can be easily run from UNIX system (Command lines are in bold). Please cite XXX when you use this software.
+PickMe and PickMeQ requires PERL, JAVA, as well as BASH command lines. These programs can be easily run from UNIX system (Command lines are in bold).  PickMe can and PickMeQ can also be run on Windows 10 through the Windows Subsystem for Linux (see https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab) for one such example.  Once WSL is loaded the same instructions below apply.
+
+Please cite XXX when you use this software.
 
 Ubuntu system requires JAVA, that can be installed following these command lines:
 
@@ -62,9 +64,9 @@ Running command lines section 1.1, then:
 
 Line 3 of PickMe-shortcut.sh: **PATH=&quot;/home/julien/Bureau/JOE/PickMe-main&quot;** replaced by: **PATH=&quot;/home/julien/Desktop/MyResearch/Tools/PickMe-main**&quot; with julien=[user].
 
-**1.3 PickMe and PickMeQ options**
+**1.3 PickMeQ options**
 
-No options were available for PickMe program. One option is available for PickMeQ program, allowing to choose the type of output file (option A to generate Astral input file; option M to generate Quartet Maxcut input file, see Methods section).
+PickMeQ userers may choose the type of output file (option A to generate Astral input file; option M to generate Quartet Maxcut input file, see Methods section).
 
 **1.4 Input files requirements**
 
@@ -84,9 +86,9 @@ A TXT file (PickMe-main/sampletrees.txt)
 
 Output files:
 
-sampletrees.txt\_graph (weight et coverage for each taxa)
+sampletrees.txt\_graph (sample reliability score and gene occupancy rate for each sample)
 
-sampletrees.txt\_output (containing several information, including the lists of taxa not recommended, recommended, strongly recommended and exceptionally well supported for inclusion in phylogenomic analyses)
+sampletrees.txt\_output (containing list of all samples categorized based on their support for inclusion in phylogenomic analyses)
 
 **cd Desktop/PickMe-main**
 
@@ -100,7 +102,7 @@ A TXT file (PickMe-main/sampletrees.txt)
 
 Output files:
 
-sampletrees.txt\_runinfo (containing several information such as references and script execution time)
+sampletrees.txt\_runinfo (containing information such as references and script execution time)
 
 sampletrees.txt\_quartets (Astral input file)
 
@@ -134,9 +136,9 @@ A TXT file (Desktop/MyResearch/Tools/PickMe-main/sampletrees.txt)
 
 Output files:
 
-sampletrees.txt\_graph (weight et coverage for each taxa)
+sampletrees.txt\_graph  (sample reliability score and gene occupancy rate for each sample)
 
-sampletrees.txt\_output (containing several information, including the lists of taxa not recommended, recommended, strongly recommended and exceptionally well supported for inclusion in phylogenomic analyses)
+sampletrees.txt\_output (containing list of all samples categorized based on their support for inclusion in phylogenomic analyses)
 
 **cd Desktop/**
 
