@@ -1,10 +1,13 @@
+OVERVIEW:  PickMe: is designed to identify samples approrpiate for use in Species Tree Reconstruction, based on gene trees estimated from all available data.  PickMeQ takes the same input but returns coalescent weighted quartets which can be used in Astral or WeightedQuartetsMaxCut for species tree reconstruction. If using this software please see the citation information at the end of this readme.
+
+
 1. **Materials**
 
 **1.1 System requirements and installation**
 
-PickMe and PickMeQ requires PERL, JAVA, as well as BASH command lines. These programs can be easily run from UNIX system (Command lines are in bold).  PickMe can and PickMeQ can also be run on Windows 10 through the Windows Subsystem for Linux (see https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab) for one such example.  Once WSL is loaded the same instructions below apply.
+PickMe and PickMeQ requires PERL, JAVA, as well as BASH command lines. These programs can be easily run from UNIX system (Command lines are in bold).  PickMe can and PickMeQ can also be run on Windows 10 through the Windows Subsystem for Linux (see https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab) for one such example.  Once WSL is loaded, the same instructions below apply.
 
-Please cite XXX when you use this software.
+
 
 Ubuntu system requires JAVA, that can be installed following these command lines:
 
@@ -207,5 +210,9 @@ Assign access rights to user for the shortcut file:
   1. **Folder not found using shortcut file**
 
 Please check the full path, line 3 of the PickMe-shortcut.sh file. If you moved PickMe-main, you need to change the full path.
+
+
+Citation: If you use this software please cite: PickMe: Sample selection for species tree reconstruction using coalescent weighted quartets as well as 
+As well as the Ruth Davidson, Pranjal Vachaspati, Siavash Mirarab, and Tandy Warnow.  Phylogenomic species tree estimation in the presence of incomplete lineage sorting and horizontal gene-transfer .BMC genomics, 16(10):S1, 2015. whose software is used in the computation of quartest. Please also cite  Jens Johansen, Morten Kragelund Holt, et al.  Computing triplet and quartet distances 3 from which the quartet computation algorithem is the bases for the quartet-software.  The quartet controller files used in the software were first published by Ruth Davidson. They have been copied here for easier access and are made avaialble through the https://github.com/redavids/phylogenetics-tools/blob/master/LICENSE.  
 
 
